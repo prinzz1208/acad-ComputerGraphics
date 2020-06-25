@@ -211,7 +211,7 @@ void init()
 void timer(int)
 {
 	glutPostRedisplay();
-	glutTimerFunc(1000/30,timer,0);
+	glutTimerFunc(1000/60,timer,0);
 	roadx+=0.4;
 	roadX+=0.4;
 	if((roadx-plane+20)>plane){
